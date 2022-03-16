@@ -1,0 +1,4 @@
+name = str(input("Please enter your first name in lowercase>>>"))
+name2 = str(input("Please enter your second name in lowercase>>>"))
+concat = name+" "+name2
+print (concat)
