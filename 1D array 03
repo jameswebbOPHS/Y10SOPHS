@@ -1,0 +1,17 @@
+names = []
+name1 = str(input("Enter a name you would like to invite>>>"))
+names.append(name1)
+name2 = str(input("Enter a name you would like to invite>>>"))
+names.append(name2)
+name3 = str(input("Enter a name you would like to invite>>>"))
+names.append(name3)
+name5 = str(input("would you like to enter another name>>>"))
+print (names)
+while name5 == "yes":
+      name6 = str(input("Enter another name>>>"))
+      names.append(name6)
+      name5 = str(input("Would you like to add more>>>"))
+else:
+ name5 == "no"
+ print(len(names))
+
