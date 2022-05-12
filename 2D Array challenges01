@@ -1,0 +1,5 @@
+msc = []
+msc.append(input("Name a type of space vehicle>>>"))
+msc.append(input("name another>>>"))
+msc.append(input("name another>>>"))
+print (msc)
