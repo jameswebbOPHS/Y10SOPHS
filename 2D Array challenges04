@@ -1,0 +1,10 @@
+oa = []
+ia1 = []
+ia2 = []
+
+print (oa)
+
+oa.append(ia1)
+oa.append(ia2)
+
+print (oa)
