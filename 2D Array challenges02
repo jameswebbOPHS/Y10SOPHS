@@ -1,0 +1,10 @@
+msc = ["Rocket Pack", "Moon Base", "Moon buggy"]
+print (msc)
+
+msc[0] = "rich people go to mars"
+
+print (msc)
+
+msc[1] = "Rich people going to the moon"
+
+print (msc)
