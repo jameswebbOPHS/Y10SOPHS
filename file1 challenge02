@@ -1,0 +1,4 @@
+name = open("names.txt","r")
+s = name.readlines()
+print (s)
+
