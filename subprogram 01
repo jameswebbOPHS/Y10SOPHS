@@ -1,0 +1,7 @@
+def fifaMenu():
+  print("career mode")
+  print("tournament")
+  print("online")
+
+fifaMenu()
+  
