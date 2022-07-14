@@ -1,0 +1,7 @@
+def codMenu():
+  print("Press 1 for domination")
+  print("Press 2 for TDM")
+  print("Press 3 for Sticks and stones")
+  userInput = int(input("Pick a gamemode>>>"))
+
+codMenu()
