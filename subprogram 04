@@ -1,0 +1,35 @@
+def MinecraftCreative():
+  print("Welcome to creative")
+def MinecraftSurival():
+  print("Welcome to survival")
+def MinecraftHardcore():
+  print("Welcome to hardcore")
+def MinecraftAdventure():
+  print("Welcome to adventure mode")
+def Exit():
+  print("Exiting")
+
+def menu():
+  print("Press 1
+        for creative")
+  print("Press 2 for survival")
+  print("Press 3 for hardcore")
+  print("Press 4 for adventure mode")
+  print("Press 5 to exit")
+  gamemode = int(input("Please choose a gamemode or exit>>>"))
+  if gamemode == 1:
+    MinecraftCreative()
+  elif gamemode == 2:
+    MinecraftSurival()
+  elif gamemode == 3:
+    MinecraftHardcore()
+  elif gamemode == 4:
+    MinecraftAdventure()
+  elif gamemode == 5:
+    Exit()
+  else:
+    print("Invalid input try again")
+    menu()
+    
+    
+menu()   
