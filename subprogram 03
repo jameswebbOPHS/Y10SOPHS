@@ -1,0 +1,28 @@
+def Mariokart():
+  print("1-player chosen")
+
+def Mariokart2():
+  print("2-player chosen")
+
+def Mariokartonline():
+  print("online chosen")
+
+def Exit():  
+  print("exiting....")
+
+def Menu():
+  print("Press 1 for 1-player")
+  print("Press 2 for 2-player")
+  print("Press 3 for online")
+  print("Press 4 to exit")
+  userinput = int(input("Please choose a gamemode or exit>>>"))
+  if userinput == 1:
+      Mariokart()
+  elif userinput == 2:
+      Mariokart2()
+  elif userinput == 3:
+      Mariokartonline()
+  else:
+      userinput == 4
+      Exit()
+Menu()
