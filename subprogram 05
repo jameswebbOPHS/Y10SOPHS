@@ -1,0 +1,32 @@
+def Spero():
+  print("Think big chosen")
+def Spero2():
+  print("Think bigger chosen")
+def Spero3():
+  print("Winning chosen")
+def Spero4():
+  print("Winner chosen")
+def Exit():
+  print("bye")
+
+def menu():
+  print("Press 1 for think big")
+  print("Press 2 for think bigger")
+  print("Press 3 for winning")
+  print("Press 4 for winner")
+  print("Press 5 to exit")
+  choice = int(input("Please choose an option>>>"))
+  if choice == 1:
+    Spero()
+  elif choice == 2:
+    Spero2()
+  elif choice == 3:
+    Spero3()
+  elif choice == 4:
+    Spero4()
+  elif choice == 5:
+    Exit()
+  else:
+    menu()
+
+menu()
